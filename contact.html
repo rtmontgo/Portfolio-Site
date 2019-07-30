@@ -32,29 +32,28 @@
     </nav>
   </header>
       <div>
-    <h1>Contact Taylor Montgomery</h1>
-    <div>
+    <h1 class="body__header">Contact Taylor Montgomery</h1>
+    <div class="profile">
       Email: <a href="mailto:r.taylor.montgomery@gmail.com">r.taylor.montgomery@gmail.com</a><br>
       Tel: <a href="tel:4794358465">479-435-8465</a><br>
-      Skype: <a href="skype:r.taylor.montgomery">r.taylor.montgomery</a>
-    </div>
-    <div>
+      Skype: <a href="skype:r.taylor.montgomery">r.taylor.montgomery</a><br>
       <a href="mailto:r.taylor.montgomery@gmail.com">Contact Me</a>
     </div>
   </div>
+  <div class="contact-form">
+    <form action="" method="post" id="contact-me-form">
+      <label class="standard-label" for="contact-email"><span class="required">*</span>E-mail: </label>
+      <input type="email" id="contact-email" placeholder="Enter valid email"required>
 
-  <form action="" method="post" id="contact-form">
-    <label class="standard-label" for="contact-email">*E-mail: </label>
-    <input type="email" id="contact-email" required>
+      <label class="standard-label" for="contact-tel">Telephone: </label>
+      <input type="tel" id="contact-tel" placeholder="(###-###-####)"pattern="\d{3}[\-]\d{3}[\-]\d{4}">
 
-    <label class="standard-label" for="contact-tel">Telephone: </label>
-    <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      <label class="standard-label" for="contact-message"><span class="required">*</span>Message: </label>
+      <textarea maxlength="240" rows="4" id="contact-message" placeholder="Type message here (max 240 characters)"required></textarea><br>
 
-    <label class="standard-label" for="contact-message">*Message (max 240 characters): </label>
-    <textarea maxlength="240" id="contact-message" required></textarea>
-
-    <input type="submit" value="Send message">
+      <input class="button-secondary"type="submit" value="Send Message">
     </form>
+  </div>
 
     <footer class="page-footer">
       <p>Find me on</p>
