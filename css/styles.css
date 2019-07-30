@@ -152,7 +152,8 @@ th {
 }
 
 .page-header__item:first-child {
-  height: auto;
+  width: auto;
+  height: 100px;
 }
 
 .page-header__item:last-child {
