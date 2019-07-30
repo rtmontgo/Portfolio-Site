@@ -151,6 +151,10 @@ th {
   width: 200px;
 }
 
+.page-header__item:first-child {
+  height: auto;
+}
+
 .page-header__item:last-child {
   flex-grow: 1;
   text-align: right;
