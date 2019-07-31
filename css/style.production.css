@@ -128,6 +128,7 @@ button:focus,
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  padding: 20px 0;
 }
 
 .profile {
@@ -172,8 +173,8 @@ th {
 }
 
 .page-header__item:first-child {
-  height: auto;
-}
+  max-height: 60px;
+  }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
@@ -304,6 +305,31 @@ th {
           animation: move 10s infinite alternate;
 }
 
+.austin {
+  width: 100%;
+  height: auto;
+  padding-top: 48%;
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+div .contact-me {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 #contact-me-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,14 +338,10 @@ th {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 700px;
+  max-width: 700px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.contact-form {
-  padding: 40px 100px;
 }
 
 label {
