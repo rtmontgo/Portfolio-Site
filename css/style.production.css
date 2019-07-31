@@ -129,6 +129,7 @@ button:focus,
           flex-direction: column;
   text-align: center;
   padding: 20px 0;
+  margin-top: 20px;
 }
 
 .profile {
@@ -173,8 +174,9 @@ th {
 }
 
 .page-header__item:first-child {
-  max-height: 60px;
-  }
+  width: auto;
+  height: 60px;
+}
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
@@ -315,6 +317,7 @@ th {
 svg {
   position: absolute;
   top: 20px;
+  bottom: 20px;
   left: 0;
 }
 
