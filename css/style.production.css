@@ -129,7 +129,7 @@ button:focus,
           flex-direction: column;
   text-align: center;
   padding: 20px 0;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .profile {
@@ -317,7 +317,6 @@ th {
 svg {
   position: absolute;
   top: 20px;
-  bottom: 20px;
   left: 0;
 }
 
