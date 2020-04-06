@@ -211,6 +211,7 @@ th {
   background-color: #f4c2c2;
   color: #000;
   padding: 10px;
+  text-align: center;
 
   /* Set width to auto */
   width: auto;
@@ -243,11 +244,6 @@ th {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-  }
-
-  .grid__item:last-child {
-    grid-column: auto/auto;
-    grid-row: auto/auto;
   }
 
   h1 {
