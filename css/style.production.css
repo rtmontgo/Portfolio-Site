@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
 
   /* Sets the line-height to 1.6 */
-  background-image: image("white-wall.jpg");
+  background: url("img/white-wall.jpg");
 }
 
 h1 {
