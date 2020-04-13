@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
 
   /* Sets the line-height to 1.6 */
-  background: url("img/white-wall.jpg");
+  background: url(/img/color-wall.jpg);
 }
 
 h1 {
@@ -166,7 +166,7 @@ th {
   width: 100%;
   padding: 20px;
   border-bottom: 1px solid darkgray;
-  background-image: image("color-wall.jpg");
+  background: url(/img/white-wall.jpg);
 }
 
 .page-header__item {
